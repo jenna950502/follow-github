@@ -1,0 +1,193 @@
+{
+  "id": "motion-video-production",
+  "name": "动画 / 视频制作工作流",
+  "description": "做一条动画或产品宣传视频的完整流水线。按环节找工具，而不是用一个词搜全部。",
+  "perspective": "by-stage",
+  "scope": "动画 / 产品宣传视频的完整生产流水线",
+  "audience": "需要从头做一条动画或宣传片的人",
+  "origin": "user-curated",
+  "sources": [],
+  "updatedAt": "2026-11-20",
+  "stages": [
+    {
+      "id": "script",
+      "name": "① 脚本创意",
+      "name_en": "Script & storyboard",
+      "search_keywords": ["video script generator", "storyboard", "ai video script"],
+      "curated": []
+    },
+    {
+      "id": "visual-art",
+      "name": "② 视觉美术",
+      "name_en": "Visual art & style",
+      "search_keywords": ["generative art", "painting animation", "art style transfer"],
+      "curated": [
+        {
+          "name": "alchaincyf/huashu-art-motion",
+          "url": "https://github.com/alchaincyf/huashu-art-motion",
+          "note": "让画动起来，35 种艺术风格",
+          "stars": 7312
+        },
+        {
+          "name": "Vincentwei1021/mg-styles-15",
+          "url": "https://github.com/Vincentwei1021/mg-styles-15",
+          "note": "15 种动效风格，每种一条 prompt",
+          "stars": 3727
+        }
+      ]
+    },
+    {
+      "id": "motion",
+      "name": "③ 动效动画（核心）",
+      "name_en": "Motion & animation",
+      "search_keywords": ["motion graphics", "animation engine", "tween", "keyframe animation"],
+      "curated": [
+        {
+          "name": "ManimCommunity/manim",
+          "url": "https://github.com/ManimCommunity/manim",
+          "note": "把公式变成流畅动画",
+          "stars": 42710
+        },
+        {
+          "name": "LottieFiles/motion-design-skill",
+          "url": "https://github.com/LottieFiles/motion-design-skill",
+          "note": "像受过训练动画师一样处理 timing 和 easing",
+          "stars": 3432
+        },
+        {
+          "name": "NiazMorshed2007/reanimate",
+          "url": "https://github.com/NiazMorshed2007/reanimate",
+          "note": "逐帧重建你看到的任何动画",
+          "stars": 1902
+        },
+        {
+          "name": "alexgreensh/anidoodle",
+          "url": "https://github.com/alexgreensh/anidoodle",
+          "note": "涂鸦和循环动画，全用代码",
+          "stars": 1870
+        },
+        {
+          "name": "Tejashmakwana/motionmaxxing",
+          "url": "https://github.com/Tejashmakwana/motionmaxxing",
+          "note": "把 AI 粗糙产物变成设计师级动效",
+          "stars": 1701
+        },
+        {
+          "name": "Leonxlnx/cinetic",
+          "url": "https://github.com/Leonxlnx/cinetic",
+          "note": "直接从代码发布影片",
+          "stars": 1306
+        }
+      ]
+    },
+    {
+      "id": "3d",
+      "name": "④ 3D 场景",
+      "name_en": "3D scene",
+      "search_keywords": ["three.js", "blender", "3d animation"],
+      "curated": [
+        {
+          "name": "EL4CTEO/blender-skills",
+          "url": "https://github.com/EL4CTEO/blender-skills",
+          "note": "你的 agent 能用的专业 Blender 技巧",
+          "stars": 2480
+        }
+      ]
+    },
+    {
+      "id": "fx",
+      "name": "⑤ 粒子 / 后处理",
+      "name_en": "Particles & post-processing",
+      "search_keywords": ["particle effects", "post processing", "compositing"],
+      "curated": [
+        {
+          "name": "Alchemist0823/three.quarks",
+          "url": "https://github.com/Alchemist0823/three.quarks",
+          "note": "让每个场景都出彩的粒子特效",
+          "stars": 1244
+        },
+        {
+          "name": "pmndrs/react-postprocessing",
+          "url": "https://github.com/pmndrs/react-postprocessing",
+          "note": "每一帧的电影感收尾",
+          "stars": 1673
+        },
+        {
+          "name": "storytold/effectcraft",
+          "url": "https://github.com/storytold/effectcraft",
+          "note": "Rust 写的高速合成",
+          "stars": 9004
+        }
+      ]
+    },
+    {
+      "id": "audio",
+      "name": "⑥ 音频 / 节拍",
+      "name_en": "Audio & beat",
+      "search_keywords": ["audio analysis", "beat detection", "music for video"],
+      "curated": [
+        {
+          "name": "librosa/librosa",
+          "url": "https://github.com/librosa/librosa",
+          "note": "找到节拍，让你的动效跟着音乐走",
+          "stars": 9040
+        }
+      ]
+    },
+    {
+      "id": "voice",
+      "name": "⑦ 语音配音",
+      "name_en": "Voice-over / TTS",
+      "search_keywords": ["text to speech", "voice over", "tts"],
+      "curated": []
+    },
+    {
+      "id": "caption",
+      "name": "⑧ 字幕",
+      "name_en": "Captions / subtitles",
+      "search_keywords": ["subtitle", "caption", "speech to text timed"],
+      "curated": [
+        {
+          "name": "m-bain/whisperX",
+          "url": "https://github.com/m-bain/whisperX",
+          "note": "逐词精确、毫秒级对时的字幕",
+          "stars": 25510
+        }
+      ]
+    },
+    {
+      "id": "tune",
+      "name": "⑨ 调参",
+      "name_en": "Tweaking / UI controls",
+      "search_keywords": ["tweakpane", "parameter control panel", "gui sliders"],
+      "curated": [
+        {
+          "name": "cocopon/tweakpane",
+          "url": "https://github.com/cocopon/tweakpane",
+          "note": "每个细节都有滑块可调",
+          "stars": 4716
+        }
+      ]
+    },
+    {
+      "id": "render",
+      "name": "⑩ 合成输出",
+      "name_en": "Render & encode",
+      "search_keywords": ["video rendering", "video encoding", "ffmpeg", "remotion"],
+      "curated": [
+        {
+          "name": "FFmpeg/FFmpeg",
+          "url": "https://github.com/FFmpeg/FFmpeg",
+          "note": "把动画变成真正的视频文件",
+          "stars": 67680
+        },
+        {
+          "name": "remotion-dev/skills",
+          "url": "https://github.com/remotion-dev/skills",
+          "note": "任何编码 agent 都能用的官方视频技能",
+          "stars": 7596
+        }
+      ]
+    }
+  ]
+}

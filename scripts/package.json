@@ -1,0 +1,10 @@
+{
+  "name": "follow-github-scripts",
+  "version": "1.0.0",
+  "description": "Scripts for Follow GitHub skill — trending digest preparation and repo search",
+  "type": "module",
+  "scripts": {
+    "prepare-digest": "node prepare-digest.js",
+    "search": "node search.js"
+  }
+}

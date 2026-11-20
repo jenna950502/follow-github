@@ -1,0 +1,8 @@
+{
+  "language": "bilingual",
+  "frequency": "daily",
+  "delivery": { "method": "stdout" },
+  "trendingSize": 15,
+  "trendingWindowDays": 7,
+  "dataSource": "trending-collection"
+}

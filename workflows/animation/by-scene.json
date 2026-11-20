@@ -1,0 +1,87 @@
+{
+  "id": "motion-by-scene",
+  "name": "动效 / 视频 · 按应用场景",
+  "description": "按「你想做什么类型的视频」来找工具，而不是按生产环节。适合已经知道自己要做什么片型的人。",
+  "perspective": "by-scene",
+  "scope": "动效 / 视频制作 · 按成片类型划分",
+  "audience": "已明确片型（TikTok/数据动画/讲解视频等）的人",
+  "origin": "evolved-from-github",
+  "sources": [
+    "https://github.com/iart-ai/motion-skills"
+  ],
+  "updatedAt": "2026-11-20",
+  "stages": [
+    {
+      "id": "tiktok-shorts",
+      "name": "短视频 / TikTok / Reels",
+      "name_en": "TikTok / Reels / Shorts",
+      "search_keywords": ["tiktok video skill", "reels motion", "short video generator"],
+      "curated": [
+        { "name": "iart-ai/tiktok-video-skills", "url": "https://github.com/iart-ai/tiktok-video-skills", "note": "TikTok / Reels / Shorts 创作者技能包", "stars": null }
+      ]
+    },
+    {
+      "id": "data-animation",
+      "name": "数据动画",
+      "name_en": "Data-driven animation",
+      "search_keywords": ["data animation", "chart animation", "data visualization motion"],
+      "curated": [
+        { "name": "iart-ai/data-animation-skills", "url": "https://github.com/iart-ai/data-animation-skills", "note": "分析师 / PM 的数据动画技能包", "stars": null }
+      ]
+    },
+    {
+      "id": "explainer",
+      "name": "讲解 / 科普视频",
+      "name_en": "Explainer video",
+      "search_keywords": ["explainer video", "whiteboard animation", "educational animation"],
+      "curated": [
+        { "name": "iart-ai/explainer-video-skills", "url": "https://github.com/iart-ai/explainer-video-skills", "note": "教育 / 内容创作者讲解视频技能包", "stars": null }
+      ]
+    },
+    {
+      "id": "kinetic-typography",
+      "name": "动态文字 / kinetic type",
+      "name_en": "Kinetic typography",
+      "search_keywords": ["kinetic typography", "text animation"],
+      "curated": [
+        { "name": "iart-ai/kinetic-typography-skills", "url": "https://github.com/iart-ai/kinetic-typography-skills", "note": "动态文字 / 文字动画技能包", "stars": null }
+      ]
+    },
+    {
+      "id": "map-animation",
+      "name": "地图动画",
+      "name_en": "Map animation",
+      "search_keywords": ["map animation", "vox style map"],
+      "curated": [
+        { "name": "iart-ai/map-animation-skills", "url": "https://github.com/iart-ai/map-animation-skills", "note": "Vox 风格编辑地图动画技能包", "stars": null }
+      ]
+    },
+    {
+      "id": "webgl-3d",
+      "name": "3D / WebGL",
+      "name_en": "3D / WebGL",
+      "search_keywords": ["webgl animation", "three.js animation skill"],
+      "curated": [
+        { "name": "iart-ai/webgl-animation-skills", "url": "https://github.com/iart-ai/webgl-animation-skills", "note": "3D / WebGL / 技术向技能包", "stars": null }
+      ]
+    },
+    {
+      "id": "b-roll",
+      "name": "B-roll 素材",
+      "name_en": "B-roll",
+      "search_keywords": ["b-roll generator", "talking head b-roll"],
+      "curated": [
+        { "name": "iart-ai/b-roll-skills", "url": "https://github.com/iart-ai/b-roll-skills", "note": "从口播内容生成 B-roll 动效技能包", "stars": null }
+      ]
+    },
+    {
+      "id": "talking-head",
+      "name": "口播视频",
+      "name_en": "Talking-head video",
+      "search_keywords": ["talking head video", "ai presenter"],
+      "curated": [
+        { "name": "iart-ai/talking-head-skills", "url": "https://github.com/iart-ai/talking-head-skills", "note": "照片 + 声音生成口播画面技能包", "stars": null }
+      ]
+    }
+  ]
+}
